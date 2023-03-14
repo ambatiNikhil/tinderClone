@@ -1,0 +1,48 @@
+.homeContainer{
+    background-image: linear-gradient(to right , blue,pink,purple);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.genderContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid burlywood;
+    height: 60%;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.genderbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.male{
+    height: 150px;
+    width: 150px;
+    background-image: url('https://cdn5.vectorstock.com/i/1000x1000/47/79/man-icon-gentleman-logo-a-with-a-beard-vector-23194779.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 75px;
+    border: 3px solid blue;
+}
+
+.female{
+    height: 150px;
+    width: 150px;
+    background-image: url('https://png.pngtree.com/png-clipart/20190902/original/pngtree-cute-girl-free-clipart-png-image_4403683.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 75px;
+    border: 3px solid green;
+}
